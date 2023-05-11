@@ -1,0 +1,40 @@
+#wrap {
+    width: 1000px;
+    margin: 20px auto 0;
+}
+
+#wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #cccccc;
+}
+
+#wrap table td {
+    border: 1px solid #dadada;
+    padding: 10px;
+    text-align: center;
+}
+
+#wrap table td.bold {
+    font-weight: bold;
+}
+
+#wrap table td.border_red {
+    border-color: #ff0000;
+}
+
+#wrap table td.border_blue {
+    border-color: #0000ff;
+}
+
+#wrap table td.bg_red {
+    background-color: rgba(255, 0, 0, .1);
+}
+
+#wrap table td.bg_blue {
+   background-color: rgba(0, 0, 255, .1);
+}
+
+#wrap table td.width_half {
+    width: 50%;
+}

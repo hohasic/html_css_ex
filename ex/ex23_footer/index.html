@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #242424;
+        }
+
+        #root {
+            margin: 30px 0;
+            padding: 30px 0;
+            background-color: #fafbfc;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+
+        #root div.ad_wrap {
+            width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dadada;
+        }
+
+        #root div.ad_wrap > ul > li {
+            width: 400px;
+        }
+
+        #root div.ad_wrap > ul > li > ul > li {
+
+        }
+
+        #root div.ad_wrap > ul > li > ul > li:nth-child(1) {
+            width: 160px;
+            margin-right: 15px;
+        }
+
+        #root div.ad_wrap > ul > li > ul > li:nth-child(2) {
+            width: 205px;
+        }
+
+        #root div.ad_wrap > ul > li > ul > li:nth-child(2) div:nth-child(1) {
+            color: #7ed187;
+            font-weight: bold;
+        }
+
+        #root div.ad_wrap > ul > li > ul > li:nth-child(2) div:nth-child(2) {
+            margin-top: 5px;
+            color: #242424;
+            font-weight: bold;
+            font-size: .9em;
+        }
+        
+        #root div.ad_wrap > ul > li > ul > li:nth-child(2) div:nth-child(3) {
+            margin-top: 3px;
+            color: #242424;
+            font-size: .9em;
+        }
+
+        #root div.noti_wrap {
+            width: 1200px;
+            height: 60px;
+            line-height: 60px;
+            margin: 0 auto;
+            border-bottom: 1px solid #dadada;
+        }
+
+        #root div.noti_wrap > ul > li > a:hover {
+            text-decoration: underline;
+        }
+
+        #root div.noti_wrap > ul > li:nth-child(1) {
+            font-weight: bold;
+            margin-left: 10px;
+            margin-right: 20px;
+        }
+
+        #root div.noti_wrap > ul > li:nth-child(3) {
+            font-weight: bold;
+            float: right;
+            margin-right: 10px;
+        }
+
+        #root div.service_wrap {
+            width: 1200px;
+            height: 110px;
+            padding-top: 20px;
+            margin: 0 auto;
+            border-bottom: 1px solid #dadada;
+        }
+
+        #root div.service_wrap > ul > li:nth-child(1) > div > ul > li {
+            margin: 4px 0;
+        }
+
+        #root div.service_wrap > ul > li:nth-child(1) > div > ul > li:nth-child(1) {
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        #root div.service_wrap > ul > li:nth-child(2) {
+            float: right;
+        }
+
+        #root div.service_wrap > ul > li:nth-child(2) > ul > li {
+            margin-left: 5px;
+        }
+
+        #root div.office_wrap {
+            width: 1200px;
+            height: 100px;
+            line-height: 100px;
+            margin: 0 auto;
+        }
+
+        #root div.office_wrap > ul > li {
+            margin-right: 20px;
+        }
+
+        #root div.office_wrap > ul > li > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div id="root">
+
+        <div class="ad_wrap">
+            <ul>
+                <li>
+                    <ul>
+                        <li><img src="./imgs/thum_01.png"></li>
+                        <li>
+                            <div>더 프리미엄 비건, 달바</div>
+                            <div>핑크빛 물광 톤업선크림</div>
+                            <div>감사 스페셜 위크 ~5/8 소중한 분께 선물하세요.</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><img src="./imgs/thum_02.png"></li>
+                        <li>
+                            <div>한국문화재단</div>
+                            <div>2023 봄 궁중문화축전</div>
+                            <div>4월 29일 ~ 5월 7일 오늘, 궁을 만나다.</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><img src="./imgs/thum_03.png"></li>
+                        <li>
+                            <div>소상공인연합회</div>
+                            <div>우리동네 선한가게 신청</div>
+                            <div>선한 영향력을 나누고 있는 소상공인을 지원합니다.</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="noti_wrap">
+            <ul>
+                <li><a href="#none">공지사항</a></li>
+                <li><a href="#none">새로운 모습의 메이버 PC메인을 만나보세요.</a></li>
+                <li><a href="#none">서비스 전체 보기</a></li>
+            </ul>
+        </div>
+
+        <div class="service_wrap">
+            <ul>
+                <li>
+                    <div>
+                        <ul>
+                            <li>Creators</li>
+                            <li><a href="#none">크리에이터</a> &nbsp; | &nbsp; <a href="#none">스몰비즈니스</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Partners</li>
+                            <li><a href="#none">SME 풀케어 시스템</a> &nbsp; | &nbsp; <a href="#none">비즈니스·광고</a> &nbsp; | &nbsp; <a href="#none">스토어 개설</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Developers</li>
+                            <li><a href="#none">네이버 개발자 센터</a> &nbsp; | &nbsp; <a href="#none">오픈 API</a> &nbsp; | &nbsp; <a href="#none">오픈소스</a> &nbsp; | &nbsp; <a href="#none">네이버 D2</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="#none"><img src="./imgs/thum_04.png"></a></li>
+                        <li><a href="#none"><img src="./imgs/thum_05.png"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="office_wrap">
+            <ul>
+                <li><a href="#none">회사소개</a></li>
+                <li><a href="#none">인재채용</a></li>
+                <li><a href="#none">제휴제안</a></li>
+                <li><a href="#none">이용약관</a></li>
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">청소년보호정책</a></li>
+                <li><a href="#none">네이버 정책</a></li>
+                <li><a href="#none">고객센터</a></li>
+                <li><a href="#none">ⓒNAVER Corp.</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

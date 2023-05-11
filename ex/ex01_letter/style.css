@@ -1,0 +1,37 @@
+#wrap {
+    width: 800px;
+    padding: 80px 50px;
+    margin: 50px auto;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .5);
+}
+
+#wrap div.to {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#wrap div.head {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: double #dadada;
+}
+
+#wrap div.body {
+    width: 90%;
+    margin: 30px auto;
+}
+
+#wrap div.body p {
+    margin: 20px 0;
+}
+
+#wrap div.from {
+    text-align: right;
+    font-style: italic;
+    margin-top: 50px;
+}

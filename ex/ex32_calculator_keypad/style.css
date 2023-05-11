@@ -1,0 +1,35 @@
+#wrap {
+    width: 400px;
+    margin: 10px auto;
+}
+
+#wrap table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#wrap table td {
+    width: 23%;
+}
+
+#wrap table td div {
+    width: 94%;
+    margin: 3px auto;
+    box-shadow: 1px 1px 1px rgba(125, 125, 125, .3);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+div.bg_gery {
+    background-color: rgba(245, 245, 245, 1.0);
+}
+
+div.bg_blue {
+    background-color: rgba(0, 90, 158, 1.0);
+    color: #fff;
+}

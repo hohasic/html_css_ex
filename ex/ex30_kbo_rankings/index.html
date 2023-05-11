@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #474747;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #wrap {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        #wrap > h2 {
+            margin: 20px 0;
+            padding-bottom: 5px;
+            text-align: center;
+            border-bottom: 1px dashed #dadada;
+        }
+
+        #wrap > table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: .9em;
+        }
+
+        #wrap > table tr:hover {
+            background-color: #f7f7f7;
+        }
+
+        #wrap > table th,
+        #wrap > table td {
+            padding: 7px 15px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        #wrap > table th {
+            background-color: #fafafa;
+        }
+
+        #wrap > table td:nth-child(1) {
+            font-weight: bold;
+        }
+
+        #wrap > table td.team_name {
+            text-align: left;
+        }
+
+        #wrap > table td > img {
+            min-width: 40px; max-width: 40px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        #wrap > table td.all_view {
+            background-color: #fafafa;
+            font-weight: normal;
+            color: #858585;
+        }
+
+        #wrap > table td.all_view span:nth-child(1) {
+            float: left;
+        }
+        #wrap > table td.all_view span:nth-child(2) {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="wrap">
+
+        <h2>KBO League Rankings</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>순위</th>
+                    <th>팀명</th>
+                    <th>경기</th>
+                    <th>승</th>
+                    <th>무</th>
+                    <th>패</th>
+                    <th>승률</th>
+                    <th>게임차</th>
+                    <th>연속</th>
+                    <th>최근10경기</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="team_name"><img src="./imgs/img01.jpg" />SSG</td>
+                    <td>29</td>
+                    <td>19</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>0.655</td>
+                    <td>0.0</td>
+                    <td>4승</td>
+                    <td>7승-3패-0무</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="team_name"><img src="./imgs/img02.jpg" />롯데</td>
+                    <td>24</td>
+                    <td>15</td>
+                    <td>0</td>
+                    <td>9</td>
+                    <td>0.625</td>
+                    <td>1.5</td>
+                    <td>1패</td>
+                    <td>9승-1패-0무</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="team_name"><img src="./imgs/img03.jpg" />LG</td>
+                    <td>28</td>
+                    <td>17</td>
+                    <td>0</td>
+                    <td>11</td>
+                    <td>0.607</td>
+                    <td>1.5</td>
+                    <td>2승</td>
+                    <td>5승-5패-0무</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="team_name"><img src="./imgs/img04.jpg" />KIA</td>
+                    <td>25</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>12</td>
+                    <td>0.520</td>
+                    <td>4.0</td>
+                    <td>1승</td>
+                    <td>8승-2패-0무</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="team_name"><img src="./imgs/img05.jpg" />NC</td>
+                    <td>28</td>
+                    <td>14</td>
+                    <td>0</td>
+                    <td>14</td>
+                    <td>0.500</td>
+                    <td>4.5</td>
+                    <td>2패</td>
+                    <td>4승-6패-0무</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="team_name"><img src="./imgs/img06.jpg" />두산</td>
+                    <td>27</td>
+                    <td>13</td>
+                    <td>1</td>
+                    <td>13</td>
+                    <td>0.500</td>
+                    <td>4.5</td>
+                    <td>2패</td>
+                    <td>3승-6패-1무</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="team_name"><img src="./imgs/img07.jpg" />삼성</td>
+                    <td>27</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>14</td>
+                    <td>0.481</td>
+                    <td>5.0</td>
+                    <td>1승</td>
+                    <td>6승-4패-0무</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td class="team_name"><img src="./imgs/img08.jpg" />키움</td>
+                    <td>29</td>
+                    <td>13</td>
+                    <td>0</td>
+                    <td>16</td>
+                    <td>0.448</td>
+                    <td>6.0</td>
+                    <td>3패</td>
+                    <td>5승-5패-0무</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td class="team_name"><img src="./imgs/img09.jpg" />KT</td>
+                    <td>26</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>16</td>
+                    <td>0.333</td>
+                    <td>8.5</td>
+                    <td>2패</td>
+                    <td>1승-8패-1무</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td class="team_name"><img src="./imgs/img10.jpg" />한화</td>
+                    <td>27</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>18</td>
+                    <td>0.308</td>
+                    <td>9.5</td>
+                    <td>2승</td>
+                    <td>3승-7패-0무</td>
+                </tr>
+                <tr>
+                    <td class="all_view" colspan="10">
+                        <span>순위 업데이트가 지연될 수 있습니다.</span>
+                        <span>전체보기</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>

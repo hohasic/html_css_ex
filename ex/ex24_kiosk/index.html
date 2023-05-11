@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #242424;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #root {
+            width: 640px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #root > div.top_img { 
+            height: 427px;
+        }
+
+        #root > div.nav_wrap > ul > li:nth-child(1) {
+            width: 80px; height: 80px;
+            background-color: #ff0000;
+            text-align: center;
+        }
+
+        #root > div.nav_wrap > ul > li:nth-child(1) > a > img {
+            max-width: 40px;
+            margin-top: 20px;
+        }
+
+        #root > div.nav_wrap > ul > li:nth-child(2) {
+            width: 130px; height: 80px;
+            text-align: center;
+        }
+
+        #root > div.nav_wrap > ul > li:nth-child(2) > a {
+            display: inline-block;
+            width: 100px;
+            font-size: 2.5em;
+            border: 1px solid #ccc;
+            margin-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 50px;
+        }
+
+        #root > div.nav_wrap > ul > li:nth-child(2) > a:hover {
+            text-decoration: none;
+        }
+
+        #root > div.nav_wrap > ul > li:nth-child(3),
+        #root > div.nav_wrap > ul > li:nth-child(4),
+        #root > div.nav_wrap > ul > li:nth-child(5),
+        #root > div.nav_wrap > ul > li:nth-child(6) {
+            float: right;
+            width: 50px; height: 80px;
+            line-height: 80px;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        #root > div.category_wrap {
+            border-top: 1px solid #dadada;
+            border-bottom: 1px solid #dadada;
+        }
+
+        #root > div.category_wrap > ul > li:nth-child(1) {
+            width: 130px;
+        }
+
+        #root > div.category_wrap > ul > li:nth-child(2) {
+            width: 120px;
+        }
+
+        #root > div.category_wrap > ul > li:nth-child(3) {
+            width: 80px;
+        }
+
+        #root > div.category_wrap > ul > li:nth-child(4) {
+            width: 100px;
+        }
+
+        #root > div.category_wrap > ul > li:nth-child(5) {
+            width: 100px;
+        }
+
+        #root > div.category_wrap > ul > li {
+            margin: 10px 10px;
+            padding: 10px 0;
+            border: 1px solid #dadada;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        #root > div.category_wrap > ul > li > a:hover {
+            text-decoration: none;
+        }
+
+        #root > div.product_wrap {
+            margin: 80px 0;
+        }
+
+        #root > div.product_wrap > ul {
+            margin: 80px 0;
+        }
+
+        #root > div.order_wrap {
+            margin-top: 20px 0;
+        }
+
+        #root > div.order_wrap > ul > li {
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid #dadada;
+            border-radius: 10px;
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(1) {
+            width: 160px; 
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(1) span {
+            font-weight: bold;
+            color: #ff0000;
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(2) {
+            width: 180px; 
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(2) span {
+            font-weight: bold;
+            color: #ff0000;
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(3) {
+            float: right;
+            width: 130px; 
+            background-color: #ff0000;
+        }
+        
+        #root > div.order_wrap > ul > li:nth-child(3) a {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(3) a:hover {
+            text-decoration: none;
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(4) {
+            float: right;
+            width: 130px; 
+        }
+
+        #root > div.order_wrap > ul > li:nth-child(4) > a:hover {
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="root">
+        <div class="top_img">
+            <img src="./imgs/img01.jpg">
+        </div>
+
+        <div class="nav_wrap">
+            <ul>
+                <li><a href="#none"><img src="./imgs/img02.png"></a></li>
+                <li><a href="#none">←</a></li>
+                <li><a href="#none">JAP</a></li>
+                <li><a href="#none">CHI</a></li>
+                <li><a href="#none">ENG</a></li>
+                <li><a href="#none">KOR</a></li>
+            </ul>
+        </div>
+
+        <div class="category_wrap">
+            <ul>
+                <li><a href="#none">시즌/프로모션</a></li>
+                <li><a href="#none">생과일쥬스</a></li>
+                <li><a href="#none">커피</a></li>
+                <li><a href="#none">음료/차</a></li>
+                <li><a href="#none">디저트</a></li>
+            </ul>
+        </div>
+
+        <div class="product_wrap">
+            <ul>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img03.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">딸바</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,800원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img04.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">바나나</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,800원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img05.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">망고</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,800원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img06.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">블루베리</a>
+                    </div>
+                    <div>
+                        <a href="#none">2,000원</a>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img07.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">수박주스</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,800원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img08.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">아보카도</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,800원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img09.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">아보카도바나나</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,800원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img10.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">오렌지</a>
+                    </div>
+                    <div>
+                        <a href="#none">2,000원</a>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img11.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">오렌지파인애플</a>
+                    </div>
+                    <div>
+                        <a href="#none">2,200원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img12.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">자몽</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,500원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img13.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">청포도</a>
+                    </div>
+                    <div>
+                        <a href="#none">1,900원</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#none"><img src="./imgs/img14.png"></a>
+                    </div>
+                    <div>
+                        <a href="#none">초바</a>
+                    </div>
+                    <div>
+                        <a href="#none">2,200원</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="order_wrap">
+            <ul>
+                <li>주문수량: <span>2</span>개</li>
+                <li>주문금액: <span>38,000</span>원</li>
+                <li><a href="#none">결제하기</a></li>
+                <li><a href="#none">내역 초기화</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+#wrap {
+    width: 500px;
+    margin: 20px auto 0;
+}
+
+#wrap div.number_wrap {
+    position: relative;
+    width: 90px;
+    height: 140px;
+    line-height: 130px;
+    background-color: #3e3e3e;
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+}
+
+#wrap div.highlight {
+    position: absolute;
+    top: 2px; left: 2px;
+}
+
+#wrap div.highlight img {
+    opacity: .85;
+}
+
+#wrap li {
+    padding: 1px;
+}
+
+#wrap li.colons {
+    width: 30px;
+    height: 120px;
+    line-height: 130px;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgba(125, 125, 125, .9);
+}

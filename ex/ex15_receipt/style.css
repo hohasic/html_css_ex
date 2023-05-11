@@ -1,0 +1,67 @@
+#wrap {
+    width: 400px;
+    margin: 20px auto;
+}
+
+#wrap > p.law {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#wrap > p.pay_no {
+    padding: 10px;
+}
+
+#wrap > table.list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#wrap > table.list th {
+    border-top: 1px dashed #cacaca;
+    border-bottom: 1px dashed #cacaca;
+    padding: 10px 0
+}
+
+#wrap > table.list td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px dashed #cacaca;
+}
+
+#wrap > table.list td:nth-child(1) {
+    width: 5px;
+}
+
+#wrap > table.list td:nth-child(3) {
+    width: 50px;
+}
+
+#wrap > table.list td:nth-child(4) {
+    width: 30px;
+}
+
+#wrap > table.list td:nth-child(5) {
+    width: 50px;
+}
+
+#wrap > div.summary {
+    text-align: right;
+    margin-top: 50px;
+    border-top: double #dadada;
+    border-bottom: double #dadada;
+}
+
+#wrap > div.summary > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#wrap > div.summary > table td {
+    padding: 3px 10px;
+    text-align: right;
+}
+
+#wrap > div.summary > table td:nth-child(2) {
+    width: 100px;
+}

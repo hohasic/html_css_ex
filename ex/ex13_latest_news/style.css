@@ -1,0 +1,39 @@
+#wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#wrap li.article_row {
+    float: none;
+    margin-bottom: 20px;
+}
+
+#wrap li.pic {
+    width: 270; height: 150px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#wrap li.pic img {
+    min-width: 270px;
+    max-width: 270px;
+    border-radius: 5px;
+}
+
+#wrap li.word {
+    width: 520px;
+}
+
+#wrap li.word div:nth-child(1) {
+    margin-bottom: 5px;
+}
+#wrap li.word div:nth-child(1) span.cate {
+    color: #ff0000;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#wrap li.word div:nth-child(2) {
+    font-size: 1.3em;
+    font-weight: bold;
+}

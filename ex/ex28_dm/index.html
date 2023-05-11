@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            overflow: hidden;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        a {
+            text-decoration: none;
+            color: #474747;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #wrap {
+            width: 830px;
+            margin: 0 auto;
+        }
+
+        #wrap div.head {
+            margin-bottom: 20px;
+        }
+
+        #wrap div.head {
+            margin-bottom: 20px;
+        }
+
+        #wrap div.head div.big_banner {
+            margin-bottom: 60px;
+        }
+
+        #wrap div.top_sponser div.thum {
+            width: 200px; height: 200px;
+            border-radius: 300px;
+            overflow: hidden;
+            margin-right: 13px;
+        }
+
+        #wrap div.top_sponser div.thum > img {
+            min-width: 200px;   max-width: 200px;
+        }
+
+        #wrap div.top_sponser div.info {
+            width: 200px;
+            margin-top: 50px;
+        }
+
+        #wrap div.top_sponser div.info span.title {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        #wrap div.top_sponser div.info span.price {
+            font-weight: bold;
+        }
+
+        #wrap div.goods {
+            margin-top: 80px;
+        }
+
+        #wrap div.goods div.cate {
+            margin-bottom: 80px;
+        }
+
+        #wrap div.goods div.cate h2 {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px 0;
+            border-top: 1px dashed #dadada;
+            border-bottom: 1px dashed #dadada;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) {
+            margin-bottom: 40px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) > li {
+            width: 410px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) > li:nth-child(1) {
+            margin-right: 10px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) div.thum {
+            width: 410px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) div.thum img {
+            min-width: 410px;   max-width: 410px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) div.info {
+            text-align: center;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) div.info span.title {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) div.info span.body {
+            font-size: 1.1em;
+            color: #adadad;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(2) div.info span.benefit {
+
+            font-weight: bold;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3),
+        #wrap div.goods div.cate > ul:nth-child(4) {
+            margin-bottom: 30px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3) li,
+        #wrap div.goods div.cate > ul:nth-child(4) li {
+            width: 274px;
+            margin-right: 4px;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3) li:last-child,
+        #wrap div.goods div.cate > ul:nth-child(4) li:last-child {
+            margin-right: 0;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3) li div.info,
+        #wrap div.goods div.cate > ul:nth-child(4) li div.info {
+            text-align: center;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3) li span.brand,
+        #wrap div.goods div.cate > ul:nth-child(4) li span.brand {
+            font-weight: bold;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3) li span.title,
+        #wrap div.goods div.cate > ul:nth-child(4) li span.title {
+            color: #adadad;
+        }
+
+        #wrap div.goods div.cate > ul:nth-child(3) li span.benefit,
+        #wrap div.goods div.cate > ul:nth-child(4) li span.benefit {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #616161;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="wrap">
+
+        <div class="head">
+            <div>
+                <img src="./imgs/ems_header_830.png" />
+            </div>
+            <div>
+                <img src="./imgs/img01.png" />
+            </div>
+            <div class="big_banner">
+                <img src="./imgs/img02.jpg" />
+            </div>
+            <div class="top_sponser">
+                <ul>
+                    <li>
+                        <ul>
+                            <li>
+                                <div class="thum">
+                                    <img src="./imgs/img03.png" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info">
+                                    <span class="title">쉬즈미스</span>
+                                    <br/>
+                                    <span class="body">원피스 셔츠 外 <br />여름 인기 상품</span>
+                                    <br />
+                                    <span class="price">60,750원~</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <div class="thum">
+                                    <img src="./imgs/img04.jpg" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info">
+                                    <span class="title">닥스</span>
+                                    <br/>
+                                    <span class="body">스카프&우양산</span>
+                                    <br/>
+                                    <span class="price">18,000원~</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="goods">
+
+            <div class="cate">
+                <h2>눈에 확~띄는 나만의 스타일 완성!</h2>
+                <ul>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img05.png" />
+                        </div>
+                        <div class="info">
+                            <span class="title">여성패션 스프링 세일</span>
+                            <br />
+                            <span class="body">TOP 브랜드</span>
+                            <br>
+                            <span class="benefit">최대 혜택</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img06.png" />
+                        </div>
+                        <div class="info">
+                            <span class="title">라움맨</span>
+                            <br />
+                            <span class="body">이자벨마랑/쎄네이 外</span>
+                            <br />
+                            <span class="benefit">10% SALE + ~19% 할인 쿠폰</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img07.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">언더웨어 연합전</span>
+                            <br />
+                            <span class="title">메이페스타</span>
+                            <br />
+                            <span class="benefit">특별 혜택</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img08.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">아디다스</span>
+                            <br />
+                            <span class="title">슈퍼위크</span>
+                            <br />
+                            <span class="benefit">알파바운스/러닝화 UP TO 50%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img09.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">데상트골프</span>
+                            <br />
+                            <span class="title">신상 5% 쿠폰</span>
+                            <br />
+                            <span class="benefit">기프트 이벤트</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img10.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">칼린/키플링 外</span>
+                            <br />
+                            <span class="title">5월 가정의 달, 잡화 기프트대전</span>
+                            <br />
+                            <span class="benefit">~76% BIG SALE</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img11.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">명품 쇼핑 페스타</span>
+                            <br />
+                            <span class="title">생로랑/미우미우 外</span>
+                            <br />
+                            <span class="benefit">~70% 특가전</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img12.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">투미</span>
+                            <br />
+                            <span class="title">단 일주일</span>
+                            <br />
+                            <span class="benefit">~30% OFF</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cate">
+                <h2>돈버는 장보기 습관!</h2>
+                <ul>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img13.png" />
+                        </div>
+                        <div class="info">
+                            <span class="title">금주의 전단광고</span>
+                            <br />
+                            <span class="body">냉동 블루베리, 삼육두유, 비비고 용기김치 등</span>
+                            <br>
+                            <span class="benefit">최대 1+1 할인</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img14.png" />
+                        </div>
+                        <div class="info">
+                            <span class="title">2023 대한민국 수산대전</span>
+                            <br />
+                            <span class="body">가정의 달 특별전</span>
+                            <br />
+                            <span class="benefit">20% 쿠폰 + 행상 수산물 최대 50% 할인</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img15.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">맵짠 VS 단짠 먹거리 대전</span>
+                            <br />
+                            <span class="title">대표 상품들</span>
+                            <br />
+                            <span class="benefit">최대 1+1 행사전</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img16.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">한돈 + 한우데이 행사</span>
+                            <br />
+                            <span class="title">한우, 삼겹살, 목살, 앞다리 등</span>
+                            <br />
+                            <span class="benefit">최대 40% 할인</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img17.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">건강/친환경 식품대전</span>
+                            <br />
+                            <span class="title">건강기능 식품부터</span>
+                            <br />
+                            <span class="benefit">친환경 식품까지!</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img18.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">삼성 모바일 베스트전</span>
+                            <br />
+                            <span class="title">자급제, 버드, 워치</span>
+                            <br />
+                            <span class="benefit">할인 특가</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img19.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">SSG 인기 하계가전 라인업</span>
+                            <br />
+                            <span class="title">시원한 여름대비</span>
+                            <br />
+                            <span class="benefit">서큘레이터부터 제습기까지!</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="thum">
+                            <img src="./imgs/img20.png" />
+                        </div>
+                        <div class="info">
+                            <span class="brand">르크루제/휘슬러 外</span>
+                            <br />
+                            <span class="title">가정의 달 기프트전</span>
+                            <br />
+                            <span class="benefit">주방 인기브랜드 기프트전</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

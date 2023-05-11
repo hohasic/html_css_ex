@@ -1,0 +1,44 @@
+#wrap {
+    width: 800px;
+    margin: 20px auto 0;
+}
+
+#wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #3f3f3f;
+    text-align: center;
+}
+
+#wrap table td {
+    border: 1px solid #dadada;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    font-weight: bold;
+    color: #ffff00;
+}
+
+#wrap table td.align_left {
+    text-align: left;
+}
+
+#wrap table td.align_right {
+    text-align: right;
+}
+
+#wrap table td.color_yellow {
+    color: #ffff00;
+}
+
+#wrap table td.color_green {
+    color: #00ff00;
+}
+
+#wrap table td.color_red {
+    color: #ff0000;
+}
+
+#wrap table td.width_100 {
+    width: 100px;
+}
