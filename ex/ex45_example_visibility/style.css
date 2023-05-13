@@ -1,0 +1,28 @@
+#wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #dadada;
+    margin: 3px 0 10px;
+}
+
+p {
+    padding-left: 10px;
+    line-height: 160%
+}
+
+p > span.hidden {
+    visibility: hidden;
+}
+
+p > span.underline {
+    text-decoration: underline;
+}
+
+p > span.bold {
+    font-weight: bold;
+}
