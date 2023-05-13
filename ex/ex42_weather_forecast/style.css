@@ -1,0 +1,73 @@
+#wrap {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#wrap table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9em;
+}
+
+#wrap table td {
+    width:62px;
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+}
+
+#wrap table tr:nth-child(1) td {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#wrap table td > ul > li {
+    float: none;
+    height: 50px;
+    line-height: 50px;
+}
+
+#wrap table td > div.icon_wrap {
+    width: 62px; height: 480px;
+    border: 1px solid rgba(200, 200, 200, .4);
+    border-radius: 31px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#wrap table td > div.icon_wrap img.icon {
+    position: absolute;
+    top: 1px; left: 1px;
+    min-width: 56px;
+    max-width: 56px;
+    border-radius: 28px;
+    box-shadow: 3px 3px 3px rgba(200, 200, 200, .5);
+}
+
+#wrap table td > div.icon_wrap img.temp_34 {
+    top: 37px;
+}
+
+#wrap table td > div.icon_wrap img.temp_33 {
+    top: 85px;
+}
+
+#wrap table td > div.icon_wrap img.temp_32 {
+    top: 133px;
+}
+
+#wrap table td > div.icon_wrap img.temp_31 {
+    top: 181px;
+}
+
+#wrap table td > div.icon_wrap img.temp_30 {
+    top: 229px;
+}
+
+#wrap table td > div.icon_wrap img.temp_31 {
+    top: 181px;
+}
+
+#wrap table td > div.icon_wrap img.temp_29 {
+    top: 277px;
+}
