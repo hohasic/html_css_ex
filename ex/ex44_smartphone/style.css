@@ -1,0 +1,81 @@
+header {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header ul {
+    background-color: #53733e;
+}
+
+header li:nth-child(1) {
+    width: 50px; height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+}
+
+header li:nth-child(2) {
+    width: 400px; height: 50px;
+    line-height: 50px;
+    float: center;
+    text-align: center;
+}
+
+header li:nth-child(3) {
+    width: 50px; height: 50px;
+    line-height: 50px;
+    float: right;
+    text-align: center;
+}
+
+header li a {
+    font-weight: bold;
+    color: #fff;
+}
+
+section {
+    width: 500px;
+    margin: 10px auto;
+}
+
+section > ul > li.space {
+    width: 10px;
+}
+
+section > ul > li.item {
+    width: 235px;
+}
+
+section > ul > li.item img {
+    border-radius: 5px;
+}
+
+section > ul > li.item div:nth-child(2) {
+    text-align: center;
+}
+
+section div.cate {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section div.item {
+    width: 60px; height: 40px;
+    padding: 10px;
+    margin: 0 20px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+section div.item:hover {
+    border-top: 1px solid #ab5757;
+    border-bottom: 1px solid #ab5757;
+    box-sizing: border-box;
+}
+
+section div.item a:hover {
+    text-decoration: none;
+}
