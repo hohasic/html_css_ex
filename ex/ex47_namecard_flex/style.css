@@ -1,0 +1,31 @@
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#wrap div.member_wrap {
+    width: 280px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgba(200, 200, 200, .3);
+}
+
+#wrap div.member_wrap div:nth-child(1) {
+    width: 80px;
+    margin-right: 20px;
+}
+
+#wrap div.member_wrap div:nth-child(1) > img {
+    min-width: 80px;
+    max-width: 80px;
+    border-radius: 50px;
+}
+
+#wrap span.bold {
+    font-weight: bold;
+}
